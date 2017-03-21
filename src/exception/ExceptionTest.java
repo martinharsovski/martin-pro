@@ -8,6 +8,7 @@ public class ExceptionTest {
 			int a = Integer.parseInt(string);
 		} catch (NumberFormatException e) {
 			System.out.println("You have not entered a number");
+			System.out.println("");
 		}
 		
 	}
